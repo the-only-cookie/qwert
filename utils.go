@@ -6,7 +6,7 @@ import "math"
 type ClosestFibonacciNumberFinder struct{}
 
 // FindClosestFibonacciNumber метод для нахождения ближайшего числа из ряда Фибоначчи к заданному числу
-func (c *ClosestFibonacciNumberFinder) FindClosestFibonacciNumber(number int) int {
+func (c *ClosestFibonacciNumberFinder) FindClosestFibonacciNumber(target int) int {
 	// реализация поиска ближайшего числа из ряда Фибоначчи
 
 	if target <= 0 {
