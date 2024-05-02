@@ -1,7 +1,7 @@
 package fibonacci
 
 // FibonacciCalculator структура для вычисления чисел ряда Фибоначчи
-type FibonacciCalculator struct{}
+type FibonacciCalculator struct{cache map[int]int}
 
 // CalculateFibonacciNumber метод для вычисления n-го числа ряда Фибоначчи
 func (f *FibonacciCalculator) CalculateFibonacciNumber(n int) int {
